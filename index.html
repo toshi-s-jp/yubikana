@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>YubiKana プライバシーポリシー</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", sans-serif;
+            line-height: 1.75;
+        }
+
+        body {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 32px 20px 64px;
+            background: Canvas;
+            color: CanvasText;
+        }
+
+        h1 {
+            margin-bottom: 0.25em;
+            font-size: clamp(1.8rem, 6vw, 2.5rem);
+            line-height: 1.25;
+        }
+
+        h2 {
+            margin-top: 2em;
+            font-size: 1.25rem;
+        }
+
+        p, li {
+            overflow-wrap: anywhere;
+        }
+
+        .updated, .note {
+            color: color-mix(in srgb, CanvasText 68%, transparent);
+        }
+
+        .summary {
+            margin: 24px 0;
+            padding: 16px 18px;
+            border: 1px solid color-mix(in srgb, CanvasText 18%, transparent);
+            border-radius: 12px;
+            background: color-mix(in srgb, CanvasText 5%, Canvas);
+        }
+
+        a {
+            color: LinkText;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>YubiKana プライバシーポリシー</h1>
+        <p class="updated">制定日・最終更新日：2026年10月16日</p>
+
+        <div class="summary">
+            <strong>要点：</strong>YubiKanaは、キーボードに入力された内容を開発者のサーバーへ送信しません。入力処理、かな漢字変換、変換学習および対応端末でのApple Intelligenceによる候補補助は、端末上で行われます。
+        </div>
+
+        <p>本プライバシーポリシーは、日本語入力アプリおよびカスタムキーボード拡張機能「YubiKana」（以下「本アプリ」）における情報の取扱いについて説明するものです。</p>
+
+        <h2>1. 開発者が収集する情報</h2>
+        <p>本アプリは、氏名、メールアドレス、住所、電話番号、位置情報、連絡先、端末識別子、広告識別子、入力内容、利用履歴、診断情報その他の個人データを、開発者または第三者のサーバーへ送信・収集しません。</p>
+
+        <h2>2. キーボード入力の取扱い</h2>
+        <p>入力中の文字、変換対象の読み、変換候補および入力欄からiOSが提供する限定的な前後文脈は、入力・変換・予測候補の提示のために端末上で一時的に処理されます。これらを開発者が受信することはなく、広告、追跡または利用者の識別には使用しません。</p>
+        <p>パスワードなどのセキュアテキスト入力欄では、iOSの仕様によりカスタムキーボードが使用されず、システムキーボードへ切り替わる場合があります。</p>
+
+        <h2>3. 端末内に保存される情報</h2>
+        <p>本アプリは、機能提供のため、次の情報を端末内の本アプリおよびキーボード拡張機能が共有する領域（App Group）に保存することがあります。</p>
+        <ul>
+            <li>キーボードの配置、フリック感度、触覚フィードバックなどの設定</li>
+            <li>利用者が本アプリへ登録した独自ユーザー辞書</li>
+            <li>候補順位や次語予測を調整するための変換学習・使用履歴</li>
+            <li>最近使用した絵文字など、入力機能の利便性に必要な情報</li>
+        </ul>
+        <p>これらは端末内でのみ使用され、開発者へ送信されません。</p>
+
+        <h2>4. フルアクセスについて</h2>
+        <p>本アプリのキーボード拡張機能は、ホストアプリとの設定・ユーザー辞書・学習情報の共有に必要な機能を利用するため、iOSの「フルアクセスを許可」の設定を使用します。フルアクセスが許可されている場合でも、本アプリが入力内容を開発者または第三者へ送信することはありません。</p>
+
+        <h2>5. Apple Intelligence</h2>
+        <p>対応する端末およびOSでは、通常の変換候補を補助するためにAppleのFoundation Modelsを使用する場合があります。この処理はAppleが提供するオンデバイスモデルを使用して端末上で行われ、本アプリが入力内容を開発者のサーバーや外部の生成AIサービスへ送信することはありません。非対応端末または機能を利用できない状態でも、通常の入力・変換機能は動作します。</p>
+
+        <h2>6. 外部通信、解析および広告</h2>
+        <p>本アプリは、入力機能のための外部API通信、アクセス解析SDK、広告SDK、行動追跡、外部のクラッシュレポートサービス、WebSocketまたはクラウド同期機能を使用しません。</p>
+
+        <h2>7. 第三者提供</h2>
+        <p>本アプリは、開発者が利用者の個人データを収集しないため、個人データの販売、貸与または第三者への提供を行いません。</p>
+
+        <h2>8. データの削除</h2>
+        <p>変換学習データは、本アプリ内の「学習をリセット」から削除できます。独自ユーザー辞書は、本アプリの辞書画面から削除できます。本アプリを端末から削除すると、本アプリが端末内に保存したデータもiOSの管理に従って削除されます。</p>
+
+        <h2>9. 子どものプライバシー</h2>
+        <p>本アプリは、年齢を問わず個人データを開発者のサーバーへ送信・収集しません。また、子どもを対象とした行動追跡や広告配信を行いません。</p>
+
+        <h2>10. 本ポリシーの変更</h2>
+        <p>本アプリの機能または関連法令の変更に応じて、本ポリシーを改定することがあります。重要な変更がある場合は、本ページまたは本アプリ内の適切な方法でお知らせします。改定後の内容は、本ページへの掲載時から適用されます。</p>
+
+        <h2>11. お問い合わせ</h2>
+        <p>本アプリおよび本ポリシーに関するお問い合わせは、以下までお願いいたします。</p>
+        <p>
+            運営者：YubiKana 開発者<br>
+            連絡先：<a href="mailto:YOUR-CONTACT-EMAIL@example.com">nagabow@gmail.com</a>
+        </p>
+        <p class="note">公開前に、上記の運営者名と連絡先メールアドレスを実際の情報へ変更してください。</p>
+    </main>
+</body>
+</html>
